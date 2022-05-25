@@ -1,21 +1,3 @@
-# Resolviendo N-Queens con Algoritmo Genético
-
-Trabajo de la disciplina Inteligencia Artificial (2020) de la clase de Ingeniería Informática CEFET-MG. Hecho en **Python3**
-
-## Como correr
-
-Para ejecutar el software, primero debe instalar las dependencias. La única dependencia de este programa es `numpy`. Así que simplemente instálalo con `pip` así:
-
-```
-pip instalar numpy
-```
-
-Para ejecutar, simplemente llame al programa de esta manera:
-
-```
-python3 principal.py
-```
-
 ### Interfaz de línea de comandos
 
 El programa se hizo para que los parámetros se pasen a través del argumento de la línea de comandos. Los argumentos se pasan en este formato:
@@ -53,8 +35,6 @@ argumentos opcionales:
 
 ### Tablero generado:
 
-<img ancho=500 src='./activos/tabuleiro.png'>
+<img ancho=500 src='./activos/tablero.png'>
 
------
-
-Autor: [Leonam Teixeira de Vasconcelos](https://leonamtv.github.io/leonamtv/)
+----

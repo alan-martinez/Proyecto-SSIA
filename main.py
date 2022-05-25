@@ -1,6 +1,6 @@
-from core.FGA import FGA
-from core.NRainhasIndFactory import NRainhaIndFactory
-from core.Tablero import Tablero
+from codigo.FGA import FGA
+from codigo.NReinasIndFactory import NReinasIndFactory
+from codigo.Tablero import Tablero
 
 import argparse
 
@@ -41,7 +41,7 @@ if args.verbose :
 FGA.executar ( nPop=num_pop,
                nGeracoes=num_ger,
                nElite=num_elite,
-               indFactory=NRainhaIndFactory(num_rainhas),
+               indFactory=NReinasIndFactory(num_rainhas),
                verbose=verbose,
                printResult=print_result,
                gerarHtml=gerar_imagem )
