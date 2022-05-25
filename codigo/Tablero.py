@@ -17,7 +17,7 @@ class Tablero () :
             margin : 0;
         }
         body {
-            background-image : linear-gradient(to right, #34c3eb, #6899ed);
+            background-image : linear-gradient(to right, #2E0249, #A91079);
         }
         .tablero {
             position: absolute;
@@ -42,10 +42,10 @@ class Tablero () :
             border : none;
         }     
         .claro {
-            background-color : #cef0d8;
+            background-color : #14C38E;
         }   
         .escuro {
-            background-color : #468759;
+            background-color : #B8F1B0;
         }
         """
 
